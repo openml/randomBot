@@ -1,0 +1,13 @@
+Package: randomBot
+Title: Random hyper-parameter sweep exploration
+Version: 0.1
+Authors@R:person("Rafael", "Gomes Mantovani", email = "rgmantovani@gmail.com", role = c("aut", "cre"))
+Description: Random bot generates random runs using OpenML datsets and mlr classification
+	learners. It performs a parameter sweep in the learner's hyper-parameter space, uploading
+	results in OpenML.
+Depends: 
+	R (>= 3.2.3)
+License: LGPL-3
+URL: https://github.com/rgmantovani/randomBot
+URLNote: https://github.com/rgmantovani/randomBot
+LazyData: true
